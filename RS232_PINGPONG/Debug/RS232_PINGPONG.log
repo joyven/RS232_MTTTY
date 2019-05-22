@@ -1,0 +1,11 @@
+﻿  Reader.cpp
+c:\users\dmarq\source\repos\rs232_pingpong\rs232_pingpong\mttty.h(115): warning C4091: 'typedef ': ignored on left of 'STATUS_MESSAGE' when no variable is declared
+c:\users\dmarq\source\repos\rs232_pingpong\rs232_pingpong\mttty.h(144): warning C4091: 'typedef ': ignored on left of 'WRITEREQUEST' when no variable is declared
+c:\users\dmarq\source\repos\rs232_pingpong\rs232_pingpong\reader.cpp(16): warning C4778: 'printf' : unterminated format string '%l\n'
+c:\users\dmarq\source\repos\rs232_pingpong\rs232_pingpong\reader.cpp(16): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\dmarq\source\repos\rs232_pingpong\rs232_pingpong\reader.cpp(16): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+Reader.obj : error LNK2019: unresolved external symbol "void __cdecl CheckModemStatus(int)" (?CheckModemStatus@@YAXH@Z) referenced in function "unsigned long __stdcall Read(void *)" (?Read@@YGKPAX@Z)
+Reader.obj : error LNK2019: unresolved external symbol "void __cdecl StatusMessage(void)" (?StatusMessage@@YAXXZ) referenced in function "unsigned long __stdcall Read(void *)" (?Read@@YGKPAX@Z)
+Reader.obj : error LNK2019: unresolved external symbol "void __cdecl CheckComStat(int)" (?CheckComStat@@YAXH@Z) referenced in function "unsigned long __stdcall Read(void *)" (?Read@@YGKPAX@Z)
+RS232_PINGPONG.obj : error LNK2019: unresolved external symbol "void __cdecl Read(void *)" (?Read@@YAXPAX@Z) referenced in function _main
+C:\Users\dmarq\source\repos\RS232_PINGPONG\Debug\RS232_PINGPONG.exe : fatal error LNK1120: 4 unresolved externals
